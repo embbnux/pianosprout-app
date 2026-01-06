@@ -2,6 +2,8 @@
 
 **Play Beautiful Music in Seconds – No Experience Needed!**
 
+[Download on the App Store](https://apps.apple.com/app/1519974306)
+
 ---
 
 ## 🎹 About the App
