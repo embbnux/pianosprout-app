@@ -8,7 +8,7 @@ Instala la aplicación en la [App Store](https://apps.apple.com/app/1519974306)
 
 Envía tus comentarios creando un [issue](https://github.com/embbnux/pianosprout-app/issues/new). **No incluyas datos sensibles en el issue**.
 
-![PianoSprout Screenshots](./assets/screenshots.png)
+![PianoSprout Screenshots](./assets/screenshot.png)
 
 ## Descripción
 

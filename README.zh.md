@@ -8,7 +8,7 @@
 
 如有反馈，请创建 [issue](https://github.com/embbnux/pianosprout-app/issues/new)。**请勿在 issue / 讨论中提交敏感数据**。
 
-![PianoSprout Screenshots](./assets/screenshots.png)
+![PianoSprout Screenshots](./assets/screenshot.png)
 
 ## 应用描述
 

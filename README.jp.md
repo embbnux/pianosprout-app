@@ -8,7 +8,7 @@
 
 フィードバックは [issue](https://github.com/embbnux/pianosprout-app/issues/new) を作成してください。**issueに機密データを含めないでください**。
 
-![PianoSprout Screenshots](./assets/screenshots.png)
+![PianoSprout Screenshots](./assets/screenshot.png)
 
 ## 説明
 

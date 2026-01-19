@@ -8,7 +8,7 @@
 
 피드백은 [issue](https://github.com/embbnux/pianosprout-app/issues/new) 를 생성해 주세요. **issue에 민감한 데이터를 포함하지 마세요**.
 
-![PianoSprout Screenshots](./assets/screenshots.png)
+![PianoSprout Screenshots](./assets/screenshot.png)
 
 ## 설명
 
