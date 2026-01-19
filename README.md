@@ -4,7 +4,7 @@ Turn device into a magic piano! No skills needed. Just tap the highlighted keys,
 
 Install the app in [App Store](https://apps.apple.com/us/app/baby-piano-fun-magic-piano/id1519974306).
 
-Feedback by creating a [issue](https://github.com/embbnux/baby-piano-app/issues/new). Do not pass sensitive data in the issue.
+Feedback by creating a [issue](https://github.com/embbnux/baby-piano-app/issues/new). **Do not pass sensitive data in the issue**.
 
 ## Description
 
