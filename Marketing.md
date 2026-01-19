@@ -10,8 +10,6 @@
 
 **PianoSprout** is not just a toy; it is a magic musical instrument designed for everyone. Whether you are a parent looking for a fun educational app for your child, or an adult looking for a relaxing way to unwind, Baby Piano lets you play beautiful melodies instantly.
 
-Built with the latest **SwiftUI** technology and powered by the **AudioKit** audio engine, we bring you a realistic and responsive musical experience right in your pocket.
-
 ---
 
 ## ✨ Key Features
