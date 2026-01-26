@@ -1,6 +1,7 @@
 ---
 layout: default
 hero_image: assets/screenshot.png
+description: Transforme seu dispositivo em um piano mágico! Nenhuma habilidade necessária. Basta tocar nas teclas destacadas e nosso motor inteligente cuida do ritmo para você. Divertido, simples e relaxante para todos.
 ---
 <nav class="language-nav">
   <a href="./">English</a>

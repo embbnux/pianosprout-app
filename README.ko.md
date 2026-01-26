@@ -1,6 +1,7 @@
 ---
 layout: default
 hero_image: assets/screenshot.png
+description: 기기를 마법의 피아노로 변신시키세요! 기술이 필요 없습니다. 강조 표시된 건반을 탭하기만 하면 스마트 엔진이 리듬을 처리해 줍니다. 모두를 위한 재미있고 간단하며 편안한 앱입니다.
 ---
 <nav class="language-nav">
   <a href="./">English</a>

@@ -1,6 +1,7 @@
 ---
 layout: default
 hero_image: assets/screenshot.png
+description: 將您的設備變成神奇鋼琴！無需技巧。只需點擊突出顯示的琴鍵，我們的智能引擎將為您處理節奏。簡單有趣，適合所有人放鬆。
 ---
 <nav class="language-nav">
   <a href="./">English</a>

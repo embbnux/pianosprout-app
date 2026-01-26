@@ -1,6 +1,7 @@
 ---
 layout: default
 hero_image: assets/screenshot.png
+description: Verwandeln Sie Ihr Gerät in ein magisches Klavier! Keine Vorkenntnisse erforderlich. Tippen Sie einfach auf die hervorgehobenen Tasten, und unsere intelligente Engine kümmert sich um den Rhythmus. Lustig, einfach und entspannend für jeden.
 ---
 <nav class="language-nav">
   <a href="./">English</a>

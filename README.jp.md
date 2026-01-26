@@ -1,6 +1,7 @@
 ---
 layout: default
 hero_image: assets/screenshot.png
+description: デバイスを魔法のピアノに変えましょう！スキルは不要です。光るキーをタップするだけで、スマートエンジンがリズムを処理します。誰でも楽しめるシンプルでリラックスできるアプリです。
 ---
 <nav class="language-nav">
   <a href="./">English</a>
