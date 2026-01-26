@@ -1,4 +1,5 @@
 ---
+layout: default
 hero_image: assets/screenshot.png
 ---
 <nav class="language-nav">
