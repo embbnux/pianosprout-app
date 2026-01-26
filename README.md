@@ -1,3 +1,4 @@
+---
 layout: default
 hero_image: assets/screenshot.png
 permalink: /
