@@ -1,0 +1,122 @@
+# Português (Brasil). Baseado no texto da App Store da 2.2 (BabyPiano docs/app-store/pt-BR.md); ajustes e músicas como no app.
+meta:
+  title: "PianoSprout – Toque na tecla que acende e uma música conhecida ganha vida"
+  description: "Um app de piano para crianças e iniciantes. Toque na tecla que acende e cada nota soa pelo tempo da partitura. Partitura acima das teclas, 30 músicas, notas arco-íris e controle dos pais. Grátis e sem anúncios."
+  privacy_title: "Política de privacidade – PianoSprout"
+nav:
+  features: Recursos
+  parents: Para os pais
+  faq: Perguntas
+  download: Baixe grátis
+  language: Idioma
+  skip: Ir para o conteúdo
+  menu: Menu
+badge_alt: Baixar na App Store
+hero:
+  eyebrow: Um piano para crianças e iniciantes
+  title: "Toque na tecla que acende e uma música conhecida ganha vida"
+  lead: "O PianoSprout transforma seu iPhone ou iPad em um piano que qualquer um consegue tocar. Toque na tecla que acende e o app faz cada nota soar exatamente pelo tempo certo. Os pequenos, as crianças que começam a ler música e os adultos que só querem relaxar têm, cada um, o seu jeito de tocar."
+  more: Veja como funciona
+  facts: [Grátis, Sem anúncios, Sem conta, Funciona offline, iPhone e iPad]
+alt:
+  hero: "PianoSprout no iPhone: uma pauta acima do teclado e a tecla a tocar acesa em roxo"
+  notation: "A linha da partitura acima das teclas, em letras"
+  songs: "Escolha uma música: 30 músicas, as mais fáceis primeiro"
+  rainbow: "Notas arco-íris: uma cor por nota nas teclas e na partitura"
+  ipad: "iPad na vertical: a estante mostra o Hino à Alegria em várias linhas"
+steps:
+  title: Três passos para a primeira música
+  items:
+    - title: Escolha uma música
+      text: "30 músicas incluídas, as mais fáceis primeiro, começando por Brilha, Brilha Estrelinha."
+    - title: Toque na tecla que acende
+      text: "A próxima tecla acende em roxo, com o nome escrito nela. Uma nota repetida mostra quantas vezes apertar."
+    - title: Toque até o fim
+      text: "Com a duração automática, cada nota soa pelo tempo indicado. Cada música terminada acaba com uma pequena comemoração."
+notation:
+  eyebrow: Linha da partitura
+  title: "Pauta, números ou letras: leia música do seu jeito"
+  text: "A partitura avança acima das teclas enquanto você toca. A próxima nota é roxa, como a tecla a apertar. Ainda não lê pauta? Mude para números ou letras."
+  chips: [Pauta, "Números 1 2 3", "Letras C D E"]
+songs:
+  eyebrow: 30 músicas
+  title: "As mais fáceis primeiro, de Brilha, Brilha Estrelinha à Sonata ao Luar"
+  text: "Cantigas, músicas folclóricas e clássicos, cada um com o nome que você conhece. Toque no nome da música acima das teclas para trocar e, no fim, siga direto para a próxima."
+  list: ["Brilha, Brilha Estrelinha", "Maria Tinha um Carneirinho", "Flor de Jasmim", "Hino à Alegria", "Para Elisa", "Sonata ao Luar"]
+rainbow:
+  eyebrow: Notas arco-íris
+  title: "Ainda não sabe ler? Encontre a tecla pela cor."
+  text: "Cada nome de nota tem a sua cor, a mesma nas teclas e na partitura. Para os pequenos que ainda não leem. Ative em Configurações › Exibição."
+who:
+  eyebrow: Quem vai tocar?
+  title: "Escolha quem vai tocar e o app se configura sozinho"
+  text: "Um cartão na primeira vez que o app abre. Escolha o mais parecido; dá para mudar depois nas Configurações."
+  child_keys: [C, D, E]
+  presets:
+    - name: Pequenino
+      who: "Ainda não sabe ler · Toca pelas cores"
+      items: [Notas arco-íris, Qualquer tecla avança, Controle dos Pais ativado]
+    - name: Criança
+      who: "Aprende as notas · Toca pelas letras"
+      items: ["Letras, com o nome em cada tecla", Qualquer tecla avança, Controle dos Pais ativado]
+    - name: Aprendiz
+      who: "Aprende a ler música · Avança se acertar"
+      items: [Pauta, "Só teclas corretas, com um aviso no erro", Você decide a duração das notas]
+ipad:
+  eyebrow: iPad
+  title: Mais partitura no iPad
+  text: "Numa janela grande, a partitura vira uma estante com várias linhas que acompanha você. Vertical, horizontal e janelas menores têm cada uma o seu layout, com teclas maiores."
+more:
+  - title: Mais de 70 instrumentos
+    text: "Piano de cauda, violão, violino, flauta, kalimba, steel drums, xilofone e mais. Troque com um toque."
+  - title: Tocar livre
+    text: "O teclado multitoque é todo seu. O que você toca é escrito na pauta acima das teclas."
+  - title: Importar MIDI
+    text: "Importe um arquivo MIDI, escolha uma faixa, e ela vira uma música para tocar junto como as incluídas."
+safe:
+  eyebrow: Para os pais
+  title: Seguro para crianças
+  text: "Com o Controle dos Pais ativado, as configurações e a importação só abrem depois que um adulto resolve uma continha."
+  items: [Sem anúncios, Sem conta, Nenhum dado coletado, Funciona offline]
+  privacy: Ler a política de privacidade
+faq:
+  title: Perguntas frequentes
+  items:
+    - q: "O Controle dos Pais está ativado. Como desativo?"
+      a: "Toque em ⚙, resolva a continha e desative o Controle dos Pais em \"Pais\"."
+    - q: "Como escolho \"Quem vai tocar?\" de novo?"
+      a: "Configurações › Pais › Quem vai tocar."
+    - q: Como troco de música?
+      a: "Toque no nome da música acima das teclas e escolha outra. No fim de uma música, você também pode tocar em \"Próxima\"."
+    - q: "Toco uma tecla, mas a partitura não avança."
+      a: "Se a verificação ao tocar estiver em \"Só teclas corretas\", só a tecla acesa faz avançar. Escolha \"Qualquer tecla avança\" em Configurações › Tocar para que qualquer tecla conte."
+    - q: Como adiciono minhas próprias músicas?
+      a: "Toque no nome da música e em \"Importar MIDI\", no fim da lista. Escolha um arquivo .mid no app Arquivos, uma faixa e toque em \"Salvar\"."
+    - q: "Minhas músicas importadas vão para um iPhone novo?"
+      a: "Sim, se você configurar o aparelho novo a partir de um backup do iCloud. Apagar e reinstalar o app remove as músicas, e elas não sincronizam entre iPhone e iPad."
+    - q: Não sai som.
+      a: "Confira o volume. O PianoSprout toca mesmo no modo silencioso e funciona com fones Bluetooth."
+    - q: Em quais aparelhos funciona?
+      a: "iPhone e iPad com iOS 15.6 ou posterior. No iPhone, toca-se na horizontal; no iPad, na horizontal ou na vertical."
+    - q: É pago?
+      a: "Não. É grátis, sem compras dentro do app e sem anúncios."
+contact:
+  title: Ficou alguma dúvida ou ideia?
+  text: "Conte o que aconteceu ou o que você gostaria de ver."
+  github: Enviar feedback no GitHub
+  review: Avaliar na App Store
+  note: "O feedback no GitHub é público: não inclua o nome, fotos ou outros dados pessoais do seu filho."
+footer:
+  privacy: Privacidade
+  faq: Perguntas
+  github: GitHub
+  languages: Idiomas
+  trademark: "Apple, o logotipo da Apple, iPhone e iPad são marcas comerciais da Apple Inc., registradas nos EUA e em outros países e regiões. App Store é uma marca de serviço da Apple Inc."
+privacy:
+  heading: Política de privacidade
+  updated: Última atualização
+  back: Voltar ao início
+not_found:
+  title: Página não encontrada
+  text: "Esta página não existe. Talvez tenha mudado de endereço quando o site foi renovado."
+  home: Ir para o início

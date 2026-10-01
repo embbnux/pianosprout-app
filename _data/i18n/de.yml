@@ -1,0 +1,122 @@
+# Deutsch. Grundlage ist der App-Store-Text von 2.2 (BabyPiano docs/app-store/de.md); Einstellungen und Liednamen wie in der App.
+meta:
+  title: "PianoSprout – Tippe auf die leuchtende Taste. Spiel ein Lied, das du kennst."
+  description: "Eine Klavier-App für Kinder und Einsteiger. Tippe auf die leuchtende Taste, und jede Note klingt so lang wie notiert. Noten über den Tasten, 30 Lieder, Regenbogennoten und Jugendschutz. Kostenlos, ohne Werbung."
+  privacy_title: "Datenschutzerklärung – PianoSprout"
+nav:
+  features: Funktionen
+  parents: Für Eltern
+  faq: Fragen
+  download: Gratis laden
+  language: Sprache
+  skip: Zum Inhalt
+  menu: Menü
+badge_alt: Laden im App Store
+hero:
+  eyebrow: Ein Klavier für Kinder und Einsteiger
+  title: "Tippe auf die leuchtende Taste. Spiel ein Lied, das du kennst."
+  lead: "PianoSprout macht aus deinem iPhone oder iPad ein Klavier, das jeder spielen kann. Tippe auf die leuchtende Taste, und die App spielt jede Note genau so lang wie notiert. Kleinkinder, Kinder, die Noten lernen, und Erwachsene, die einfach entspannen wollen, finden jeweils ihre eigene Art zu spielen."
+  more: So funktioniert's
+  facts: [Kostenlos, Keine Werbung, Kein Konto, Funktioniert offline, iPhone und iPad]
+alt:
+  hero: "PianoSprout auf dem iPhone: Noten über der Tastatur, die nächste Taste leuchtet lila"
+  notation: "Die Notenzeile über den Tasten in Buchstaben"
+  songs: "Lied wählen: 30 Lieder, die leichtesten zuerst"
+  rainbow: "Regenbogennoten: jede Note hat ihre Farbe, auf den Tasten und in den Noten"
+  ipad: "iPad im Hochformat: der Notenständer zeigt Ode an die Freude in mehreren Zeilen"
+steps:
+  title: In drei Schritten zum ersten Lied
+  items:
+    - title: Lied wählen
+      text: "30 eingebaute Lieder, die leichtesten zuerst – los geht's mit Funkel, funkel, kleiner Stern."
+    - title: Auf die leuchtende Taste tippen
+      text: "Die nächste Taste leuchtet lila, ihr Name steht darauf. Bei einer wiederholten Note siehst du, wie oft du drücken musst."
+    - title: Bis zum Ende spielen
+      text: "Mit automatischer Notenlänge klingt jeder Ton so lang wie notiert. Jedes fertige Lied endet mit einer kleinen Feier."
+notation:
+  eyebrow: Notenzeile
+  title: "Notensystem, Ziffern oder Buchstaben – Noten lesen, wie du willst"
+  text: "Über den Tasten laufen die Noten mit, während du spielst. Die nächste Note ist lila, genau wie die Taste, die du drückst. Noch keine Noten lesen? Dann schalte auf Ziffern oder Buchstaben um."
+  chips: [Notensystem, "Ziffern 1 2 3", "Buchstaben C D E"]
+songs:
+  eyebrow: 30 Lieder
+  title: "Die leichtesten zuerst, von Funkel, funkel bis zur Mondscheinsonate"
+  text: "Kinderlieder, Volkslieder und Klassiker, jeweils mit dem Namen, den du kennst. Tippe über den Tasten auf den Liednamen, um das Lied zu wechseln, und spiel nach dem Ende gleich das nächste."
+  list: ["Funkel, funkel, kleiner Stern", "Mary hat ein kleines Lamm", "Jasminblüte", "Ode an die Freude", "Für Elise", "Mondscheinsonate"]
+rainbow:
+  eyebrow: Regenbogennoten
+  title: "Noch nicht lesen? Die Taste an der Farbe erkennen."
+  text: "Jeder Notenname hat seine eigene Farbe, auf den Tasten und in den Noten gleich. Für die Kleinsten, die noch nicht lesen können. Einschalten unter Einstellungen › Anzeige."
+who:
+  eyebrow: Wer spielt?
+  title: "Wähle, wer spielt – die App stellt sich darauf ein"
+  text: "Eine Karte beim ersten Start. Wähle, was am besten passt; ändern kannst du es später in den Einstellungen."
+  child_keys: [C, D, E]
+  presets:
+    - name: Kleinkind
+      who: "Kann noch nicht lesen · Spielt nach Farben"
+      items: [Regenbogennoten, Jede Taste geht weiter, Jugendschutz an]
+    - name: Kind
+      who: "Lernt die Notennamen · Spielt nach Buchstaben"
+      items: ["Buchstaben, der Name auf jeder Taste", Jede Taste geht weiter, Jugendschutz an]
+    - name: Klavierschüler
+      who: "Lernt Noten lesen · Nur richtig geht weiter"
+      items: [Notensystem, "Nur richtige Tasten, mit Hinweis bei einer falschen", Notenlänge selbst bestimmen]
+ipad:
+  eyebrow: iPad
+  title: Mehr Noten auf dem iPad
+  text: "In einem großen Fenster werden die Noten zum Notenständer mit mehreren Zeilen, der deinem Spiel folgt. Hochformat, Querformat und kleinere Fenster haben jeweils ihr eigenes Layout, mit größeren Tasten."
+more:
+  - title: Über 70 Instrumente
+    text: "Flügel, Gitarre, Geige, Flöte, Kalimba, Steel Drums, Xylophon und mehr. Mit einem Tipp wechseln."
+  - title: Frei spielen
+    text: "Die Multi-Touch-Tastatur gehört dir. Was du spielst, wird auf den Noten über den Tasten mitgeschrieben."
+  - title: MIDI importieren
+    text: "Importiere eine MIDI-Datei, wähle eine Spur, und sie wird zu einem Mitspiel-Lied wie die eingebauten."
+safe:
+  eyebrow: Für Eltern
+  title: Sicher für Kinder
+  text: "Mit eingeschaltetem Jugendschutz öffnen sich Einstellungen und Import erst, nachdem ein Erwachsener eine kleine Rechenaufgabe gelöst hat."
+  items: [Keine Werbung, Kein Konto, Keine Datenerfassung, Funktioniert offline]
+  privacy: Datenschutzerklärung lesen
+faq:
+  title: Fragen und Antworten
+  items:
+    - q: "Der Jugendschutz ist an. Wie schalte ich ihn aus?"
+      a: "Tippe auf ⚙, löse die Rechenaufgabe und schalte unter „Eltern“ den Jugendschutz aus."
+    - q: "Wie wähle ich „Wer spielt?“ noch einmal?"
+      a: "Einstellungen › Eltern › Wer spielt."
+    - q: Wie wechsle ich das Lied?
+      a: "Tippe über den Tasten auf den Liednamen und wähle ein Lied. Nach dem Ende eines Lieds kannst du auch auf „Weiter“ tippen."
+    - q: "Ich drücke eine Taste, aber die Noten gehen nicht weiter."
+      a: "Steht die Spielkontrolle auf „Nur richtige Tasten“, geht es nur mit der leuchtenden Taste weiter. Wähle unter Einstellungen › Spielen „Jede Taste geht weiter“, damit jede Taste zählt."
+    - q: Wie füge ich eigene Lieder hinzu?
+      a: "Tippe auf den Liednamen und dann auf „MIDI importieren“ am Ende der Liste. Wähle eine .mid-Datei in „Dateien“, wähle eine Spur und tippe auf „Speichern“."
+    - q: "Kommen meine importierten Lieder mit aufs neue iPhone?"
+      a: "Ja, wenn du das neue Gerät aus einem iCloud-Backup einrichtest. Löschst du die App und installierst sie neu, sind sie weg; zwischen iPhone und iPad werden sie nicht abgeglichen."
+    - q: Ich höre nichts.
+      a: "Prüfe die Lautstärke. PianoSprout spielt auch im Stummmodus, und Bluetooth-Kopfhörer funktionieren."
+    - q: Auf welchen Geräten läuft die App?
+      a: "iPhone und iPad mit iOS 15.6 oder neuer. Auf dem iPhone im Querformat, auf dem iPad im Quer- oder Hochformat."
+    - q: Kostet die App etwas?
+      a: "Nein. Sie ist kostenlos, ohne In-App-Käufe und ohne Werbung."
+contact:
+  title: Noch eine Frage oder eine Idee?
+  text: "Erzähl uns, was passiert ist oder was du dir wünschst."
+  github: Feedback auf GitHub
+  review: Bewertung im App Store schreiben
+  note: "Feedback auf GitHub ist öffentlich. Bitte nenne keine Namen, Fotos oder andere persönliche Angaben deines Kindes."
+footer:
+  privacy: Datenschutz
+  faq: Fragen
+  github: GitHub
+  languages: Sprachen
+  trademark: "Apple, das Apple Logo, iPhone und iPad sind Marken der Apple Inc., die in den USA und weiteren Ländern und Regionen eingetragen sind. App Store ist eine Dienstleistungsmarke der Apple Inc."
+privacy:
+  heading: Datenschutzerklärung
+  updated: Zuletzt aktualisiert
+  back: Zur Startseite
+not_found:
+  title: Seite nicht gefunden
+  text: "Diese Seite gibt es nicht. Vielleicht ist sie beim Umbau der Website umgezogen."
+  home: Zur Startseite

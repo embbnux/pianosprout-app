@@ -1,0 +1,122 @@
+# Français. D'après le texte App Store de la 2.2 (BabyPiano docs/app-store/fr.md) ; réglages et titres comme dans l'app.
+meta:
+  title: "PianoSprout – Appuyez sur la touche qui s'allume. Jouez un air que vous connaissez."
+  description: "Une app de piano pour les enfants et les débutants. Appuyez sur la touche qui s'allume et chaque note dure ce qu'indique la partition. Partition au-dessus des touches, 30 morceaux, notes arc-en-ciel et contrôle parental. Gratuite, sans publicité."
+  privacy_title: "Politique de confidentialité – PianoSprout"
+nav:
+  features: Fonctions
+  parents: Parents
+  faq: Questions
+  download: Télécharger
+  language: Langue
+  skip: Aller au contenu
+  menu: Menu
+badge_alt: Télécharger dans l'App Store
+hero:
+  eyebrow: Un piano pour les enfants et les débutants
+  title: "Appuyez sur la touche qui s'allume. Jouez un air que vous connaissez."
+  lead: "PianoSprout transforme votre iPhone ou iPad en un piano que tout le monde peut jouer. Appuyez sur la touche qui s'allume, et l'app joue chaque note exactement à la bonne durée. Les tout-petits, les enfants qui apprennent à lire la musique et les adultes qui veulent juste se détendre ont chacun leur façon de jouer."
+  more: Voir comment ça marche
+  facts: [Gratuite, Sans publicité, Sans compte, Fonctionne hors ligne, iPhone et iPad]
+alt:
+  hero: "PianoSprout sur iPhone : une portée au-dessus du clavier, la touche à jouer s'allume en violet"
+  notation: "La ligne de partition au-dessus des touches, en lettres"
+  songs: "Choisir un morceau : 30 morceaux, les plus faciles d'abord"
+  rainbow: "Notes arc-en-ciel : une couleur par note, sur les touches et la partition"
+  ipad: "iPad en portrait : le pupitre affiche l'Ode à la joie sur plusieurs lignes"
+steps:
+  title: Trois étapes pour un premier morceau
+  items:
+    - title: Choisir un morceau
+      text: "30 morceaux intégrés, les plus faciles d'abord, à commencer par Ah ! vous dirai-je, maman."
+    - title: Appuyer sur la touche qui s'allume
+      text: "La prochaine touche s'allume en violet, avec son nom dessus. Une note répétée indique combien de fois appuyer."
+    - title: Jouer jusqu'au bout
+      text: "Avec la durée automatique, chaque note sonne le temps indiqué. Chaque morceau terminé finit par une petite fête."
+notation:
+  eyebrow: Ligne de partition
+  title: "Portée, chiffres ou lettres : lisez la musique à votre façon"
+  text: "La partition défile au-dessus des touches pendant que vous jouez. La prochaine note est violette, comme la touche à jouer. Pas encore à l'aise avec la portée ? Passez aux chiffres ou aux lettres."
+  chips: [Portée, "Chiffres 1 2 3", "Lettres C D E"]
+songs:
+  eyebrow: 30 morceaux
+  title: "Les plus faciles d'abord, jusqu'à la Sonate au clair de lune"
+  text: "Comptines, chansons populaires et grands classiques, chacun sous le nom que vous connaissez. Touchez le titre au-dessus des touches pour changer de morceau, et enchaînez avec le suivant à la fin."
+  list: ["Ah ! vous dirai-je, maman", "Marie avait un petit agneau", "Fleur de jasmin", "Ode à la joie", "Lettre à Élise", "Sonate au clair de lune"]
+rainbow:
+  eyebrow: Notes arc-en-ciel
+  title: "Pas encore lecteur ? Trouvez la touche à sa couleur."
+  text: "Chaque nom de note a sa couleur, la même sur les touches et sur la partition. Pour les tout-petits qui ne savent pas encore lire. À activer dans Réglages › Affichage."
+who:
+  eyebrow: Qui joue ?
+  title: "Dites qui joue, l'app se règle toute seule"
+  text: "Une carte au premier lancement. Choisissez le profil le plus proche ; vous pourrez le changer plus tard dans les réglages."
+  child_keys: [C, D, E]
+  presets:
+    - name: Tout-petit
+      who: "Ne sait pas encore lire · Joue avec les couleurs"
+      items: [Notes arc-en-ciel, Toute touche fait avancer, Contrôle parental activé]
+    - name: Enfant
+      who: "Apprend le nom des notes · Joue avec les lettres"
+      items: ["Lettres, le nom sur chaque touche", Toute touche fait avancer, Contrôle parental activé]
+    - name: Apprenti
+      who: "Apprend à lire la musique · Avance si c'est juste"
+      items: [Portée, "Seulement les bonnes touches, avec un rappel en cas d'erreur", "Durée des notes à vous de jouer"]
+ipad:
+  eyebrow: iPad
+  title: Plus de partition sur iPad
+  text: "Dans une grande fenêtre, la partition devient un pupitre de plusieurs lignes qui suit votre jeu. Portrait, paysage et petites fenêtres ont chacun leur disposition, avec des touches plus grandes."
+more:
+  - title: Plus de 70 instruments
+    text: "Piano à queue, guitare, violon, flûte, kalimba, steel drums, xylophone et plus. Changez d'un geste."
+  - title: Jeu libre
+    text: "Le clavier multi-touch est à vous. Ce que vous jouez s'écrit sur la portée au-dessus des touches."
+  - title: Importer MIDI
+    text: "Importez un fichier MIDI, choisissez une piste, et il devient un morceau à suivre comme ceux intégrés."
+safe:
+  eyebrow: Pour les parents
+  title: Sûr pour les enfants
+  text: "Avec le contrôle parental activé, les réglages et l'import ne s'ouvrent qu'après qu'un adulte a résolu un petit calcul."
+  items: [Sans publicité, Sans compte, Aucune donnée collectée, Fonctionne hors ligne]
+  privacy: Lire la politique de confidentialité
+faq:
+  title: Questions et réponses
+  items:
+    - q: "Le contrôle parental est activé. Comment le désactiver ?"
+      a: "Touchez ⚙, résolvez le calcul, puis désactivez le contrôle parental dans « Parents »."
+    - q: "Comment refaire le choix « Qui joue ? » ?"
+      a: "Réglages › Parents › Qui joue."
+    - q: Comment changer de morceau ?
+      a: "Touchez le titre au-dessus des touches et choisissez un morceau. À la fin d'un morceau, vous pouvez aussi toucher « Suivant »."
+    - q: "J'appuie sur une touche mais la partition n'avance pas."
+      a: "Si la vérification du jeu est sur « Seulement les bonnes touches », seule la touche allumée fait avancer. Choisissez « Toute touche fait avancer » dans Réglages › Jeu pour que chaque touche compte."
+    - q: Comment ajouter mes propres morceaux ?
+      a: "Touchez le titre, puis « Importer MIDI » à la fin de la liste. Choisissez un fichier .mid dans Fichiers, une piste, puis touchez « Enregistrer »."
+    - q: "Mes morceaux importés me suivent-ils sur un nouvel iPhone ?"
+      a: "Oui, si vous restaurez le nouvel appareil depuis une sauvegarde iCloud. Supprimer puis réinstaller l'app les efface, et ils ne se synchronisent pas entre iPhone et iPad."
+    - q: "Je n'entends rien."
+      a: "Vérifiez le volume. PianoSprout joue même en mode silencieux, et fonctionne avec des écouteurs Bluetooth."
+    - q: Sur quels appareils fonctionne l'app ?
+      a: "iPhone et iPad sous iOS 15.6 ou ultérieur. En paysage sur iPhone, en paysage ou en portrait sur iPad."
+    - q: "L'app est-elle payante ?"
+      a: "Non. Elle est gratuite, sans achats intégrés et sans publicité."
+contact:
+  title: Une question ou une idée ?
+  text: "Dites-nous ce qui s'est passé ou ce que vous aimeriez voir."
+  github: Envoyer un avis sur GitHub
+  review: Laisser un avis sur l'App Store
+  note: "Les avis sur GitHub sont publics : merci de ne pas indiquer le nom, des photos ou d'autres informations personnelles de votre enfant."
+footer:
+  privacy: Confidentialité
+  faq: Questions
+  github: GitHub
+  languages: Langues
+  trademark: "Apple, le logo Apple, iPhone et iPad sont des marques d'Apple Inc., déposées aux États-Unis et dans d'autres pays et régions. App Store est une marque de service d'Apple Inc."
+privacy:
+  heading: Politique de confidentialité
+  updated: Dernière mise à jour
+  back: Retour à l'accueil
+not_found:
+  title: Page introuvable
+  text: "Cette page n'existe pas. Elle a peut-être changé d'adresse lors de la refonte du site."
+  home: Aller à l'accueil

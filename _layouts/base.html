@@ -1,0 +1,102 @@
+{%- assign lang = page.lang | default: "en" -%}
+{%- assign t = site.data.i18n[lang] -%}
+{%- for l in site.data.languages -%}{%- if l.code == lang -%}{%- assign L = l -%}{%- endif -%}{%- endfor -%}
+{%- if page.kind == "privacy" -%}
+  {%- assign title = t.meta.privacy_title -%}
+  {%- assign here = L.privacy | append: ".html" -%}
+{%- elsif page.kind == "404" -%}
+  {%- assign title = t.not_found.title | append: " – PianoSprout" -%}
+  {%- assign here = "/404.html" -%}
+{%- else -%}
+  {%- assign title = t.meta.title -%}
+  {%- assign here = L.home -%}
+{%- endif -%}
+<!doctype html>
+<html lang="{{ lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title }}</title>
+  <meta name="description" content="{{ t.meta.description | escape }}">
+  {%- if page.kind != "404" %}
+  <link rel="canonical" href="{{ site.url }}{{ here }}">
+  {%- for l in site.data.languages %}
+  <link rel="alternate" hreflang="{{ l.code }}" href="{{ site.url }}{% if page.kind == 'privacy' %}{{ l.privacy }}.html{% else %}{{ l.home }}{% endif %}">
+  {%- endfor %}
+  <link rel="alternate" hreflang="x-default" href="{{ site.url }}{% if page.kind == 'privacy' %}/privacy.en.html{% else %}/{% endif %}">
+  {%- else %}
+  <meta name="robots" content="noindex">
+  {%- endif %}
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ L.app }}">
+  <meta property="og:title" content="{{ title | escape }}">
+  <meta property="og:description" content="{{ t.meta.description | escape }}">
+  <meta property="og:url" content="{{ site.url }}{{ here }}">
+  <meta property="og:image" content="{{ site.url }}/assets/img/{{ lang }}/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="{{ L.og }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="apple-itunes-app" content="app-id={{ site.app_id }}">
+  <meta name="theme-color" content="#F7F6FB" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0B0A0F" media="(prefers-color-scheme: dark)">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/icon-192.png">
+  <link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="/assets/css/site.css?v={{ site.time | date: '%s' }}">
+  {%- if page.kind == "home" and lang == "en" %}
+  <script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "PianoSprout", "operatingSystem": "iOS 15.6 or later", "applicationCategory": "MultimediaApplication", "url": "{{ site.url }}/", "downloadUrl": "{{ site.app_store_url }}", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}
+  </script>
+  {%- endif %}
+</head>
+<body>
+
+<a class="skip" href="#main">{{ t.nav.skip }}</a>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="{{ L.home }}"><img src="/assets/icons/icon-64.png" alt="" width="30" height="30">{{ L.app }}{% if L.sub %} <small>{{ L.sub }}</small>{% endif %}</a>
+    <nav class="nav-links" aria-label="{{ t.nav.menu }}">
+      <a href="{{ L.home }}#features">{{ t.nav.features }}</a>
+      <a href="{{ L.home }}#parents">{{ t.nav.parents }}</a>
+      <a href="{{ L.home }}#support">{{ t.nav.faq }}</a>
+    </nav>
+    {% include language-menu.html %}
+    <a class="nav-cta" href="{{ site.app_store_url }}">{{ t.nav.download }}</a>
+  </div>
+</header>
+
+<main id="main">
+{{ content }}
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div>
+        <a class="brand" href="{{ L.home }}"><img src="/assets/icons/icon-64.png" alt="" width="30" height="30">{{ L.app }}{% if L.sub %} <small>{{ L.sub }}</small>{% endif %}</a>
+        <p class="footer-links"><a href="{{ L.privacy }}">{{ t.footer.privacy }}</a><a href="{{ L.home }}#support">{{ t.footer.faq }}</a><a href="{{ site.github_url }}">{{ t.footer.github }}</a></p>
+      </div>
+      <nav class="footer-langs" aria-label="{{ t.footer.languages }}">
+        {%- for l in site.data.languages %}
+        <a href="{% if page.kind == 'privacy' %}{{ l.privacy }}{% else %}{{ l.home }}{% endif %}" hreflang="{{ l.code }}" lang="{{ l.code }}"{% if l.code == lang %} aria-current="page"{% endif %}>{{ l.name }}</a>
+        {%- endfor %}
+      </nav>
+    </div>
+    <p class="legal">© {{ site.time | date: "%Y" }} Embbnux<br>{{ t.footer.trademark }}</p>
+  </div>
+</footer>
+
+<script>
+  // Close the language menu when tapping elsewhere or pressing Escape.
+  (function () {
+    var menu = document.querySelector('.lang');
+    if (!menu) return;
+    document.addEventListener('click', function (e) { if (menu.open && !menu.contains(e.target)) menu.open = false; });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && menu.open) { menu.open = false; menu.querySelector('summary').focus(); } });
+  })();
+</script>
+</body>
+</html>

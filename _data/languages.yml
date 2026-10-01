@@ -1,0 +1,75 @@
+# One row per language. Order is the order of the language menus.
+#   code     lang attribute, hreflang and the file name in _data/i18n
+#   name     the language's own name, as shown in the menus
+#   home     address of the home page
+#   privacy  address of the privacy policy (the old addresses stay: App Store Connect links to them)
+#   app      the app's name under its icon in that language
+#   sub      shown small after the name when the name is not PianoSprout
+#   badge    file in assets/badges (Apple's localized App Store badge)
+#   og       Open Graph locale
+- code: en
+  name: English
+  home: /
+  privacy: /privacy.en
+  app: PianoSprout
+  badge: en-us
+  og: en_US
+- code: zh-Hans
+  name: 简体中文
+  home: /zh-hans/
+  privacy: /privacy.zh-Hans
+  app: 宝宝钢琴师
+  sub: PianoSprout
+  badge: zh-cn
+  og: zh_CN
+- code: zh-Hant
+  name: 繁體中文
+  home: /zh-hant/
+  privacy: /privacy.zh-Han
+  app: 寶寶鋼琴師
+  sub: PianoSprout
+  badge: zh-tw
+  og: zh_TW
+- code: ja
+  name: 日本語
+  home: /ja/
+  privacy: /privacy.jp
+  app: PianoSprout
+  badge: ja-jp
+  og: ja_JP
+- code: ko
+  name: 한국어
+  home: /ko/
+  privacy: /privacy.ko
+  app: 베이비피아노
+  sub: PianoSprout
+  badge: ko-kr
+  og: ko_KR
+- code: de
+  name: Deutsch
+  home: /de/
+  privacy: /privacy.de
+  app: PianoSprout
+  badge: de-de
+  og: de_DE
+- code: fr
+  name: Français
+  home: /fr/
+  privacy: /privacy.fr
+  app: PianoSprout
+  badge: fr-fr
+  og: fr_FR
+- code: es
+  name: Español
+  home: /es/
+  privacy: /privacy.es
+  app: PianoSprout
+  badge: es-es
+  og: es_ES
+- code: pt-BR
+  name: Português
+  home: /pt-br/
+  privacy: /privacy.pt
+  app: PianoSprout
+  badge: pt-br
+  og: pt_BR

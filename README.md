@@ -1,61 +1,22 @@
----
-layout: default
-hero_image: assets/screenshot.png
-permalink: /
----
-<nav class="language-nav">
-  <strong>English</strong>
-  <a href="README.zh.html">简体中文</a>
-  <a href="README.zh-Han.html">繁體中文</a>
-  <a href="README.fr.html">Français</a>
-  <a href="README.de.html">Deutsch</a>
-  <a href="README.jp.html">日本語</a>
-  <a href="README.ko.html">한국어</a>
-  <a href="README.pt.html">Português</a>
-  <a href="README.es.html">Español</a>
-</nav>
+# pianosprout.xyz
 
-# PianoSprout App
+Website of PianoSprout (宝宝钢琴师), a piano app for children and beginners on iPhone and iPad: <https://pianosprout.xyz/>
 
-Turn device into a magic piano! No skills needed. Just tap the highlighted keys, and our smart engine handles the rhythm for you. Fun, simple, and relaxing for everyone.
+Built by GitHub Pages with Jekyll from the `main` branch.
 
-Install the app in [App Store](https://apps.apple.com/app/1519974306)
+| Where | What |
+| --- | --- |
+| `_data/languages.yml` | The 9 languages: addresses, the app's name, App Store badge |
+| `_data/i18n/<code>.yml` | Every word on the home page, one file per language |
+| `_layouts/` | `base` (head, top bar, footer), `home`, `privacy` |
+| `privacy.*.md` | Privacy policies. The old addresses (`/privacy.en`, `/privacy.zh-Han`, `/privacy.jp`, `/privacy.es`, `/privacy.pt`) are linked from App Store Connect: keep them |
+| `assets/img/<code>/` | Screenshots for the site, made by `tools/export_screenshots.py` |
+| `assets/badges/` | Apple's localized "Download on the App Store" badges |
 
-Feedback by creating a [issue](https://github.com/embbnux/pianosprout-app/issues/new). **Do not pass sensitive data in the issue**.
+Preview locally with the same versions as GitHub Pages:
 
-## Description
+```bash
+bundle exec jekyll serve   # with a Gemfile that has `gem "github-pages", group: :jekyll_plugins`
+```
 
-
-Play Beautiful Music in Seconds – No Experience Needed!
-
-PianoSprout is not just a simulator; it's a fun musical toy that makes anyone sound like a pro. Whether you are a kid or just a kid at heart, you'll love how easy it is to play your favorite tunes.
-
-【What makes it fun?】
-
--  Magic Mode (Auto Duration)
-
-Forget about complex timing! Just tap the correct key when it lights up.
-
-The app automatically plays the note for the perfect duration. You control the speed, we handle the rhythm. It feels like magic!
-
-- Explore Cool Sounds
-
-Bored of the standard piano? Switch to Guitar, Violin, or other instruments instantly.
-
-High-quality sound effects (SoundFonts) make every tap satisfying.
-
-- Simple & Relaxing
-
-Light Up Guide: Follow the hints to play classic songs like "Jingle Bells" effortlessly.
-
-Creative Freedom: Switch to free-play mode and enjoy the multi-touch keyboard. Connect to your inner musician without the stress of lessons.
-
-【Features】
-
-Colorful and clean interface.
-
-Works great on iPhone and iPad (try the Dual Keyboard!).
-
-Perfect for a quick creative break or entertaining the little ones.
-
-[Privacy](./privacy.en.md)
+Feedback: <https://github.com/embbnux/pianosprout-app/issues>. Issues are public, so please leave out personal details.

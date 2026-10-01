@@ -1,5 +1,16 @@
 title: PianoSprout
-description: Turn device into a magic piano! No skills needed. Just tap the highlighted keys, and our smart engine handles the rhythm for you.
-show_downloads: false
+url: https://pianosprout.xyz
+app_id: "1519974306"
+app_store_url: https://apps.apple.com/app/id1519974306
+review_url: https://apps.apple.com/app/id1519974306?action=write-review
+github_url: https://github.com/embbnux/pianosprout-app
+issues_url: https://github.com/embbnux/pianosprout-app/issues/new
+
 plugins:
-  - jekyll-seo-tag
+  - jekyll-redirect-from
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+  - tools
+  - .DS_Store

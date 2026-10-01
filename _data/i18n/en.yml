@@ -1,0 +1,123 @@
+# Words on the site in English. Based on the 2.2 App Store copy (BabyPiano docs/app-store/en.md);
+# names of settings and songs follow the app's string catalog.
+meta:
+  title: "PianoSprout – Tap the glowing key. Play a song you know."
+  description: "A piano app for children and beginners. Tap the glowing key and each note plays for its written length. Sheet music above the keys, 30 songs, rainbow notes and a parent lock. Free, no ads."
+  privacy_title: "Privacy Policy – PianoSprout"
+nav:
+  features: Features
+  parents: Parents
+  faq: FAQ
+  download: Free download
+  language: Language
+  skip: Skip to content
+  menu: Menu
+badge_alt: Download on the App Store
+hero:
+  eyebrow: A piano for children and beginners
+  title: "Tap the glowing key. Play a song you know."
+  lead: "PianoSprout turns your iPhone or iPad into a piano anyone can play. Tap the glowing key and the app plays each note for exactly the right length. Toddlers, kids learning to read music and grown-ups who just want to relax each get their own way to play."
+  more: See how it works
+  facts: [Free, No ads, No account, Works offline, iPhone and iPad]
+alt:
+  hero: "PianoSprout on iPhone: a staff above the keyboard, and the key to play glowing purple"
+  notation: "The score line above the keys in letters"
+  songs: "Choose a song: 30 songs, easiest first"
+  rainbow: "Rainbow notes: one color per note on the keys and the score"
+  ipad: "iPad in portrait: the music stand shows Ode to Joy across several lines"
+steps:
+  title: Three steps to your first song
+  items:
+    - title: Pick a song
+      text: "30 built-in songs, easiest first, starting with Twinkle, Twinkle, Little Star."
+    - title: Tap the glowing key
+      text: "The next key glows purple with its name on it. A repeated note shows how many times to press."
+    - title: Play it to the end
+      text: "With Auto note length on, each note sounds for its written length. A finished song gets a little celebration."
+notation:
+  eyebrow: Score line
+  title: "Staff, numbers or letters. Read music your way."
+  text: "Sheet music runs above the keys and scrolls as you play. The next note is purple, just like the key to press. Not reading the staff yet? Switch to numbers or letters."
+  chips: [Staff, "Numbers 1 2 3", "Letters C D E"]
+songs:
+  eyebrow: 30 songs
+  title: "Easiest first, from Twinkle Star to the Moonlight Sonata"
+  text: "Nursery rhymes, folk songs and classics, each named the way you know it. Tap the song name above the keys to change songs, and go straight on to the next one when you finish."
+  list: ["Twinkle, Twinkle, Little Star", "Mary Had a Little Lamb", "Jasmine Flower", "Ode to Joy", "Für Elise", "Moonlight Sonata"]
+rainbow:
+  eyebrow: Rainbow notes
+  title: "Can't read yet? Find the key by its color."
+  text: "Every note name has its own color, the same on the keys and on the score. Made for little ones who can't read yet. Turn it on in Settings › Display."
+who:
+  eyebrow: "Who's playing?"
+  title: "Pick who's playing, and the app sets itself up"
+  text: "A card on first launch. Pick the closest one; you can change it later in Settings."
+  child_keys: [C, D, E]
+  presets:
+    - name: Little one
+      who: "Can't read yet · Plays by color"
+      items: [Rainbow notes, Any key moves on, Parental control on]
+    - name: Child
+      who: "Learning note names · Plays by letter"
+      items: ["Letters, with the name on every key", Any key moves on, Parental control on]
+    - name: Learner
+      who: "Learning to read music · Moves on when it's right"
+      items: [Staff, "Only correct keys, with a nudge on a wrong one", Note length is up to you]
+ipad:
+  eyebrow: iPad
+  title: More score on iPad
+  text: "In a large window the score becomes a music stand with several lines that follows your playing. Portrait, landscape and smaller windows each get their own layout, with bigger keys."
+more:
+  - title: Over 70 instruments
+    text: "Grand piano, guitar, violin, flute, kalimba, steel drums, xylophone and more. Change with one tap."
+  - title: Free play
+    text: "The multi-touch keyboard is all yours. What you play is written on the staff above the keys."
+  - title: Import MIDI
+    text: "Import a MIDI file, pick a track, and it becomes a song to play along with, like the built-in ones."
+safe:
+  eyebrow: For parents
+  title: Safe for kids
+  text: "With Parental control on, Settings and importing open only after a grown-up solves a quick sum."
+  items: [No ads, No account, No data collected, Works offline]
+  privacy: Read the privacy policy
+faq:
+  title: Questions and answers
+  items:
+    - q: "Parental control is on. How do I turn it off?"
+      a: "Tap ⚙, solve the sum, and turn off Parental control under Parents."
+    - q: "How do I pick “Who's playing?” again?"
+      a: "Settings › Parents › Who's playing."
+    - q: How do I change songs?
+      a: "Tap the song name above the keys and pick one. When a song ends, you can also tap “Next”."
+    - q: "I tap a key but the score doesn't move on."
+      a: "With Play check set to “Only correct keys”, only the glowing key moves on. Choose “Any key moves on” under Settings › Play to let every key count."
+    - q: How do I add my own songs?
+      a: "Tap the song name, then Import MIDI at the end of the list. Choose a .mid file in Files, pick a track and tap Save."
+    - q: "Do my imported songs come with me to a new phone?"
+      a: "Yes, if you set up the new phone from an iCloud backup. Deleting and reinstalling the app removes them, and they don't sync between iPhone and iPad."
+    - q: "I can't hear anything."
+      a: "Check the volume. PianoSprout plays even when the Ring/Silent switch is set to silent, and works with Bluetooth headphones."
+    - q: Which devices does it run on?
+      a: "iPhone and iPad with iOS 15.6 or later. It plays in landscape on iPhone, and in landscape or portrait on iPad."
+    - q: Does it cost anything?
+      a: "No. It's free, with no in-app purchases and no ads."
+contact:
+  title: Still have a question or an idea?
+  text: "Tell us what happened or what you'd like to see."
+  github: Send feedback on GitHub
+  review: Write a review on the App Store
+  note: "Feedback on GitHub is public, so please leave out your child's name, photos and other personal details."
+footer:
+  privacy: Privacy Policy
+  faq: FAQ
+  github: GitHub
+  languages: Languages
+  trademark: "Apple, the Apple logo, iPhone, and iPad are trademarks of Apple Inc., registered in the U.S. and other countries and regions. App Store is a service mark of Apple Inc."
+privacy:
+  heading: Privacy Policy
+  updated: "Last updated"
+  back: Back to home
+not_found:
+  title: Page not found
+  text: "This page doesn't exist. It may have moved when the site was updated."
+  home: Go to the home page

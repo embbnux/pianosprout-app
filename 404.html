@@ -1,0 +1,17 @@
+---
+layout: base
+kind: "404"
+lang: en
+permalink: /404.html
+---
+{%- assign t = site.data.i18n.en -%}
+<article class="wrap doc">
+  <h1>{{ t.not_found.title }}</h1>
+  <p class="updated">{{ t.not_found.text }}</p>
+  <p class="back"><a href="/">{{ t.not_found.home }} <span aria-hidden="true">→</span></a></p>
+  <nav class="home-list" aria-label="{{ t.footer.languages }}">
+    {%- for l in site.data.languages %}
+    <a href="{{ l.home }}" hreflang="{{ l.code }}" lang="{{ l.code }}">{{ l.name }}</a>
+    {%- endfor %}
+  </nav>
+</article>

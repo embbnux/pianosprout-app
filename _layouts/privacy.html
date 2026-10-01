@@ -1,0 +1,14 @@
+---
+layout: base
+---
+{%- assign lang = page.lang | default: "en" -%}
+{%- assign t = site.data.i18n[lang] -%}
+{%- for l in site.data.languages -%}{%- if l.code == lang -%}{%- assign L = l -%}{%- endif -%}{%- endfor -%}
+<article class="wrap doc">
+  <h1>{{ t.privacy.heading }}</h1>
+  <p class="updated">{{ t.privacy.updated }}: <time datetime="{{ page.updated }}">{{ page.updated }}</time></p>
+  <div class="card body">
+{{ content }}
+  </div>
+  <p class="back"><a href="{{ L.home }}"><span aria-hidden="true">←</span> {{ t.privacy.back }}</a></p>
+</article>

@@ -1,0 +1,173 @@
+---
+layout: base
+---
+{%- assign lang = page.lang | default: "en" -%}
+{%- assign t = site.data.i18n[lang] -%}
+{%- for l in site.data.languages -%}{%- if l.code == lang -%}{%- assign L = l -%}{%- endif -%}{%- endfor -%}
+{%- capture check -%}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.2 4.2L19 7"/></svg>{%- endcapture -%}
+{%- capture badge -%}<a class="badge" href="{{ site.app_store_url }}"><img src="/assets/badges/{{ L.badge }}.svg" alt="{{ t.badge_alt | escape }}" height="54"></a>{%- endcapture -%}
+
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-text">
+      <p class="eyebrow">{{ t.hero.eyebrow }}</p>
+      <h1>{{ t.hero.title }}</h1>
+      <p class="lead">{{ t.hero.lead }}</p>
+      <div class="cta-row">
+        {{ badge }}
+        <a class="more-link" href="#how">{{ t.hero.more }} <span aria-hidden="true">↓</span></a>
+      </div>
+      <ul class="facts">
+        {%- for f in t.hero.facts %}
+        <li>{{ check }}{{ f }}</li>
+        {%- endfor %}
+      </ul>
+    </div>
+    <div class="hero-media">
+      {% include shot.html kind="phone" name="01-follow-score" alt=t.alt.hero eager=true %}
+    </div>
+  </div>
+</section>
+
+<section class="block" id="how">
+  <div class="wrap">
+    <h2 class="section-title center">{{ t.steps.title }}</h2>
+    <ol class="steps">
+      {%- for s in t.steps.items %}
+      <li class="card step"><span class="num" aria-hidden="true">{{ forloop.index }}</span><h3>{{ s.title }}</h3><p>{{ s.text }}</p></li>
+      {%- endfor %}
+    </ol>
+  </div>
+</section>
+
+<section class="block tight" id="features">
+  <div class="wrap">
+    <div class="feature">
+      <div class="media">{% include shot.html kind="phone" name="02-notation" alt=t.alt.notation %}</div>
+      <div class="text">
+        <p class="eyebrow">{{ t.notation.eyebrow }}</p>
+        <h2>{{ t.notation.title }}</h2>
+        <p>{{ t.notation.text }}</p>
+        <ul class="chips">{% for c in t.notation.chips %}<li>{{ c }}</li>{% endfor %}</ul>
+      </div>
+    </div>
+
+    <div class="feature flip">
+      <div class="media">{% include shot.html kind="phone" name="03-songs" alt=t.alt.songs %}</div>
+      <div class="text">
+        <p class="eyebrow">{{ t.songs.eyebrow }}</p>
+        <h2>{{ t.songs.title }}</h2>
+        <p>{{ t.songs.text }}</p>
+        <p class="songs">{{ t.songs.list | join: " · " }} …</p>
+      </div>
+    </div>
+
+    <div class="feature">
+      <div class="media">{% include shot.html kind="phone" name="04-rainbow" alt=t.alt.rainbow %}</div>
+      <div class="text">
+        <p class="eyebrow">{{ t.rainbow.eyebrow }}</p>
+        <h2>{{ t.rainbow.title }}</h2>
+        <p>{{ t.rainbow.text }}</p>
+        <div class="mini-keys" aria-hidden="true">
+          <span style="--deep:#C72E7C;--light:#FF7AB8">C</span><span style="--deep:#B95A00;--light:#F57C00">D</span><span style="--deep:#8A6E00;--light:#FFD60A">E</span><span style="--deep:#1F8A38;--light:#4CD964">F</span><span style="--deep:#0C7BA6;--light:#64D2FF">G</span><span style="--deep:#2B63DB;--light:#3D7FFF">A</span><span style="--deep:#8A4CD6;--light:#D59CFF">B</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="block tight" id="who">
+  <div class="wrap">
+    <div class="section-head center">
+      <p class="eyebrow">{{ t.who.eyebrow }}</p>
+      <h2 class="section-title">{{ t.who.title }}</h2>
+      <p>{{ t.who.text }}</p>
+    </div>
+    <div class="presets">
+      {%- for p in t.who.presets %}
+      <div class="card preset">
+        <div class="art" aria-hidden="true">
+          {%- if forloop.index == 1 %}
+          <span class="k on rainbow" style="--deep:#C72E7C;--light:#FF7AB8">C</span><span class="k rainbow" style="--light:#F57C00"></span><span class="k rainbow" style="--light:#FFD60A"></span>
+          {%- elsif forloop.index == 2 %}
+          <span class="k on">{{ t.who.child_keys[0] }}</span><span class="k">{{ t.who.child_keys[1] }}</span><span class="k">{{ t.who.child_keys[2] }}</span>
+          {%- else %}
+          <svg class="staff" width="150" height="60" viewBox="0 0 150 60" fill="none"><g class="lines" stroke-width="1"><path d="M4 12h142M4 21h142M4 30h142M4 39h142M4 48h142"/></g><rect x="14" y="4" width="20" height="54" rx="7" fill="rgba(185,167,255,.35)"/><g class="heads"><ellipse cx="24" cy="52" rx="5.2" ry="3.8" fill="#7C4DFF"/><ellipse cx="50" cy="52" rx="5.2" ry="3.8"/><ellipse cx="76" cy="34" rx="5.2" ry="3.8"/><ellipse cx="102" cy="34" rx="5.2" ry="3.8"/><ellipse cx="128" cy="30" rx="5.2" ry="3.8"/></g><g class="stems" stroke-width="1.4"><path d="M29 52V28" stroke="#7C4DFF"/><path d="M55 52V28M81 34V10M107 34V10M133 30V6"/><path d="M17 52h14M43 52h14"/></g></svg>
+          {%- endif %}
+        </div>
+        <h3>{{ p.name }}</h3>
+        <p class="who">{{ p.who }}</p>
+        <ul>{% for i in p.items %}<li>{{ i }}</li>{% endfor %}</ul>
+      </div>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="block tight">
+  <div class="wrap">
+    <div class="ipad-row">
+      <div class="text">
+        <p class="eyebrow">{{ t.ipad.eyebrow }}</p>
+        <h2>{{ t.ipad.title }}</h2>
+        <p>{{ t.ipad.text }}</p>
+      </div>
+      <div class="media">{% include shot.html kind="ipad" name="06-music-stand" alt=t.alt.ipad %}</div>
+    </div>
+  </div>
+</section>
+
+<section class="block tight">
+  <div class="wrap">
+    <div class="more">
+      <div class="card"><span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M9 18V6l11-2v12"/><circle cx="6.5" cy="18" r="2.5"/><circle cx="17.5" cy="16" r="2.5"/></svg></span><h3>{{ t.more[0].title }}</h3><p>{{ t.more[0].text }}</p></div>
+      <div class="card"><span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 7h16M4 11h16M4 15h16"/><circle cx="9" cy="15" r="2" fill="currentColor"/><circle cx="15" cy="11" r="2" fill="currentColor"/></svg></span><h3>{{ t.more[1].title }}</h3><p>{{ t.more[1].text }}</p></div>
+      <div class="card"><span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M12 11v6M9 14l3 3 3-3"/></svg></span><h3>{{ t.more[2].title }}</h3><p>{{ t.more[2].text }}</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="block tight" id="parents">
+  <div class="wrap">
+    <div class="card safe">
+      <div class="text">
+        <p class="eyebrow">{{ t.safe.eyebrow }}</p>
+        <h2>{{ t.safe.title }}</h2>
+        <p>{{ t.safe.text }}</p>
+        <p class="safe-link"><a href="{{ L.privacy }}">{{ t.safe.privacy }} <span aria-hidden="true">→</span></a></p>
+      </div>
+      <ul class="safe-grid">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M4 4l16 16"/></svg>{{ t.safe.items[0] }}</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg>{{ t.safe.items[1] }}</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 4.5-3.4 8-8 9-4.6-1-8-4.5-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg>{{ t.safe.items[2] }}</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M2 9a15 15 0 0 1 20 0M5 12.5a10 10 0 0 1 14 0M8.5 16a5 5 0 0 1 7 0"/><circle cx="12" cy="19.5" r="1" fill="currentColor"/><path d="M3 3l18 18"/></svg>{{ t.safe.items[3] }}</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="block tight" id="support">
+  <div class="wrap">
+    <h2 class="section-title center">{{ t.faq.title }}</h2>
+    <div class="faq">
+      {%- for f in t.faq.items %}
+      <details class="card"><summary>{{ f.q }}</summary><p>{{ f.a }}</p></details>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="block tight last">
+  <div class="wrap">
+    <div class="card contact">
+      <h2>{{ t.contact.title }}</h2>
+      <p>{{ t.contact.text }}</p>
+      <div class="btns">
+        <a class="btn solid" href="{{ site.issues_url }}">{{ t.contact.github }}</a>
+        <a class="btn" href="{{ site.review_url }}">{{ t.contact.review }}</a>
+      </div>
+      <p class="note">{{ t.contact.note }}</p>
+    </div>
+    <div class="final-cta">{{ badge }}</div>
+  </div>
+</section>

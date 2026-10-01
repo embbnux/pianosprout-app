@@ -1,24 +1,31 @@
-This software respects and protects the privacy of all users of the service. In order to provide you with more accurate and personalized services, the software will use and disclose your personal information in accordance with the provisions of this privacy policy. However, the software will treat such information with a high degree of diligence and prudence. Except as otherwise provided in this privacy policy, the software will not disclose or provide such information to third parties without your prior permission. The software will update this privacy policy from time to time. When you agree to the software service use agreement, you are deemed to have agreed to the entire content of this privacy policy. This privacy policy is an integral part of this software service use agreement.
+---
+layout: privacy
+kind: privacy
+lang: en
+updated: 2026-10-01
+---
+**PianoSprout does not collect, upload or share any personal information.**
 
-1. Scope of application
+## What stays on your device
 
-a) When you use the software service, the software will use your speakers to play sound; the software will record the music you select and store it locally on the device
+PianoSprout keeps your settings and the MIDI songs you import on your iPhone or iPad. The app never sends them anywhere. If you use iCloud Backup or another device backup, Apple may include them in that backup under Apple's own privacy policy. Deleting the app deletes them.
 
-2. Use of information
+## No network, no tracking
 
-a) After getting your data, it is stored locally so that you can use the service better.
+The app does not connect to the internet. It has no accounts, no ads, no analytics, no tracking and no third-party SDKs.
 
-3. Information disclosure
+## Permissions
 
-a) This software will not disclose your information to untrusted third parties.
-b) To disclose to a third party or administrative or judicial organ in accordance with the relevant provisions of the local law or the requirements of the administrative or judicial organ;
+The app does not ask for the microphone, camera, location, contacts, photos or any other permission. When you import a MIDI file, it reads only the file you pick in Files and copies it into the app.
 
-c) If you violate relevant local laws, regulations or rules, you need to disclose to a third party;
+## Children
 
-4. Information storage and exchange
+PianoSprout is made for children and families and collects no information from them. With Parental control on, a grown-up has to solve a quick sum before Settings or importing opens.
 
-The information and information about you collected by this software will only be saved on this software.
+## This website
 
-5. Information security
+pianosprout.xyz uses no cookies and no analytics, and loads nothing from other websites. It is hosted on GitHub Pages; GitHub may log visitors' IP addresses for security purposes, as described in the [GitHub Privacy Statement](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement).
 
-a) This software only saves information on the local device. Please protect the data of this software properly. If you delete the software, the data cannot be recovered.
+## Changes and contact
+
+If this policy changes, we will update this page and the date above. Questions are welcome on [GitHub](https://github.com/embbnux/pianosprout-app/issues/new). Issues there are public, so please leave out personal details.
