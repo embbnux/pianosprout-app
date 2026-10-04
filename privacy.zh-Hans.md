@@ -2,7 +2,7 @@
 layout: privacy
 kind: privacy
 lang: zh-Hans
-updated: 2026-10-01
+updated: 2026-10-04
 ---
 **《宝宝钢琴师》不收集、不上传、不分享任何个人信息。**
 
@@ -27,5 +27,7 @@ App 不申请麦克风、相机、定位、通讯录、照片或任何其他权�
 pianosprout.xyz 不使用 Cookie，没有统计，也不从其他网站加载任何内容。网站托管在 GitHub Pages 上，GitHub 可能出于安全目的记录访问者的 IP 地址，详见 [GitHub 隐私声明](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement)。
 
 ## 变更和联系
+
+有问题或建议，欢迎发邮件到 [{{ site.support_email }}](mailto:{{ site.support_email }})。你发来的邮件只用来回复你。
 
 本政策如有变化，我们会更新本页和上面的日期。有问题欢迎到 [GitHub](https://github.com/embbnux/pianosprout-app/issues/new) 提出。那里的内容是公开的，请不要写个人信息。

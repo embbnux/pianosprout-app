@@ -101,6 +101,7 @@ faq:
     - q: É pago?
       a: "Não. É grátis, sem compras dentro do app e sem anúncios."
 contact:
+  email: Envie um e-mail
   title: Ficou alguma dúvida ou ideia?
   text: "Conte o que aconteceu ou o que você gostaria de ver."
   github: Enviar feedback no GitHub

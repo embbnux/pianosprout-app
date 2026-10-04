@@ -2,7 +2,7 @@
 layout: privacy
 kind: privacy
 lang: ko
-updated: 2026-10-01
+updated: 2026-10-04
 ---
 **『베이비피아노』는 어떠한 개인정보도 수집하거나 전송하거나 공유하지 않습니다.**
 
@@ -27,5 +27,7 @@ updated: 2026-10-01
 pianosprout.xyz는 쿠키와 분석 도구를 쓰지 않으며, 다른 사이트에서 아무것도 불러오지 않습니다. 사이트는 GitHub Pages에서 호스팅되며, GitHub는 보안을 위해 방문자의 IP 주소를 기록할 수 있습니다. 자세한 내용은 [GitHub 개인정보 처리방침](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement)을 참고하세요.
 
 ## 변경 및 문의
+
+문의나 의견은 [{{ site.support_email }}](mailto:{{ site.support_email }})로 이메일을 보내 주세요. 보내 주신 이메일은 답변하는 데만 사용합니다.
 
 이 방침이 바뀌면 이 페이지와 위의 날짜를 업데이트합니다. 문의는 [GitHub](https://github.com/embbnux/pianosprout-app/issues/new)에 남겨 주세요. 내용이 공개되므로 개인정보는 적지 마세요.

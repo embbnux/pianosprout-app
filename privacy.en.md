@@ -2,7 +2,7 @@
 layout: privacy
 kind: privacy
 lang: en
-updated: 2026-10-01
+updated: 2026-10-04
 ---
 **PianoSprout does not collect, upload or share any personal information.**
 
@@ -27,5 +27,7 @@ PianoSprout is made for children and families and collects no information from t
 pianosprout.xyz uses no cookies and no analytics, and loads nothing from other websites. It is hosted on GitHub Pages; GitHub may log visitors' IP addresses for security purposes, as described in the [GitHub Privacy Statement](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement).
 
 ## Changes and contact
+
+For questions or feedback, email us at [{{ site.support_email }}](mailto:{{ site.support_email }}). We use the emails you send only to reply to you.
 
 If this policy changes, we will update this page and the date above. Questions are welcome on [GitHub](https://github.com/embbnux/pianosprout-app/issues/new). Issues there are public, so please leave out personal details.

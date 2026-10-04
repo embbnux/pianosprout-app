@@ -101,6 +101,7 @@ faq:
     - q: "L'app est-elle payante ?"
       a: "Non. Elle est gratuite, sans achats intégrés et sans publicité."
 contact:
+  email: Écrivez-nous par e-mail
   title: Une question ou une idée ?
   text: "Dites-nous ce qui s'est passé ou ce que vous aimeriez voir."
   github: Envoyer un avis sur GitHub

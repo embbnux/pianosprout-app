@@ -101,6 +101,7 @@ faq:
     - q: 要花錢嗎？
       a: "不用。免費下載，沒有 App 內購買，也沒有廣告。"
 contact:
+  email: 寄信給我們
   title: 還有問題或建議？
   text: "告訴我們遇到了什麼，或者想要什麼功能。"
   github: 在 GitHub 上回饋

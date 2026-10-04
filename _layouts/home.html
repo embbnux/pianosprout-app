@@ -162,8 +162,10 @@ layout: base
     <div class="card contact">
       <h2>{{ t.contact.title }}</h2>
       <p>{{ t.contact.text }}</p>
+      <p><a href="mailto:{{ site.support_email }}">{{ site.support_email }}</a></p>
       <div class="btns">
-        <a class="btn solid" href="{{ site.issues_url }}">{{ t.contact.github }}</a>
+        <a class="btn solid" href="mailto:{{ site.support_email }}">{{ t.contact.email }}</a>
+        <a class="btn" href="{{ site.issues_url }}">{{ t.contact.github }}</a>
         <a class="btn" href="{{ site.review_url }}">{{ t.contact.review }}</a>
       </div>
       <p class="note">{{ t.contact.note }}</p>

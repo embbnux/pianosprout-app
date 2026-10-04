@@ -19,4 +19,6 @@ Preview locally with the same versions as GitHub Pages:
 bundle exec jekyll serve   # with a Gemfile that has `gem "github-pages", group: :jekyll_plugins`
 ```
 
-Feedback: <https://github.com/embbnux/pianosprout-app/issues>. Issues are public, so please leave out personal details.
+Questions and feedback: [support@pianosprout.xyz](mailto:support@pianosprout.xyz). We use your emails only to reply to you.
+
+You can also use <https://github.com/embbnux/pianosprout-app/issues>. Issues are public, so please leave out personal details.

@@ -102,6 +102,7 @@ faq:
     - q: Does it cost anything?
       a: "No. It's free, with no in-app purchases and no ads."
 contact:
+  email: Email us
   title: Still have a question or an idea?
   text: "Tell us what happened or what you'd like to see."
   github: Send feedback on GitHub

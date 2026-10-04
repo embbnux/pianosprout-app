@@ -5,6 +5,7 @@ app_store_url: https://apps.apple.com/app/id1519974306
 review_url: https://apps.apple.com/app/id1519974306?action=write-review
 github_url: https://github.com/embbnux/pianosprout-app
 issues_url: https://github.com/embbnux/pianosprout-app/issues/new
+support_email: support@pianosprout.xyz
 
 plugins:
   - jekyll-redirect-from

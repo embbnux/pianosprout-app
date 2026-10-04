@@ -101,6 +101,7 @@ faq:
     - q: ¿Cuesta algo?
       a: "No. Es gratis, sin compras dentro de la app y sin anuncios."
 contact:
+  email: Escríbenos por correo
   title: ¿Tienes alguna pregunta o idea?
   text: "Cuéntanos qué ha pasado o qué te gustaría ver."
   github: Enviar comentarios en GitHub

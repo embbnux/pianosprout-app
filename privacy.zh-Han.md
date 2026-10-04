@@ -2,7 +2,7 @@
 layout: privacy
 kind: privacy
 lang: zh-Hant
-updated: 2026-10-01
+updated: 2026-10-04
 ---
 **《寶寶鋼琴師》不收集、不上傳、不分享任何個人資料。**
 
@@ -27,5 +27,7 @@ App 不要求麥克風、相機、位置、聯絡人、照片或任何其他權�
 pianosprout.xyz 不使用 Cookie，沒有分析工具，也不從其他網站載入任何內容。網站託管在 GitHub Pages 上，GitHub 可能基於安全目的記錄訪客的 IP 位址，詳見 [GitHub 隱私權聲明](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement)。
 
 ## 變更與聯絡
+
+有問題或建議，歡迎寄信到 [{{ site.support_email }}](mailto:{{ site.support_email }})。你寄來的郵件只用來回覆你。
 
 本政策如有變更，我們會更新本頁和上方的日期。有問題歡迎到 [GitHub](https://github.com/embbnux/pianosprout-app/issues/new) 提出。那裡的內容是公開的，請不要寫個人資料。
