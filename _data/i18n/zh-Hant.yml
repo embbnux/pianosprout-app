@@ -1,8 +1,8 @@
 # 繁體中文。以 2.2 商店文案（BabyPiano docs/app-store/zh-Hant.md）為底；App 內的選單名稱照 App 寫（「設置」）。
 meta:
-  title: "寶寶鋼琴師 PianoSprout – 從亮起的琴鍵開始，彈出熟悉的旋律"
+  title: "PianoSprout – 從亮起的琴鍵開始，彈出熟悉的旋律"
   description: "給小朋友和初學者的鋼琴 App。按亮起的琴鍵，每個音自動按曲譜彈滿。鍵盤上方顯示曲譜，30 首曲目，彩虹音符和家長管理。免費，沒有廣告。"
-  privacy_title: "隱私權政策 – 寶寶鋼琴師"
+  privacy_title: "隱私權政策 – PianoSprout"
 nav:
   features: 功能
   parents: 家長
@@ -15,11 +15,11 @@ badge_alt: 在 App Store 下載
 hero:
   eyebrow: 給小朋友和初學者的鋼琴
   title: "從亮起的琴鍵開始，彈出熟悉的旋律"
-  lead: "《寶寶鋼琴師》把 iPhone 和 iPad 變成一架誰都會彈的鋼琴。按亮起的琴鍵，每個音自動按曲譜彈滿。小寶寶、剛開始認譜的孩子、想放鬆一下的大人，各有各的彈法。"
+  lead: "《PianoSprout》把 iPhone 和 iPad 變成一架誰都會彈的鋼琴。按亮起的琴鍵，每個音自動按曲譜彈滿。小寶寶、剛開始認譜的孩子、想放鬆一下的大人，各有各的彈法。"
   more: 看看怎麼玩
   facts: [免費, 沒有廣告, 不用註冊, 離線可用, iPhone 和 iPad]
 alt:
-  hero: "寶寶鋼琴師的主畫面：鍵盤上方是五線譜，要按的琴鍵亮紫色"
+  hero: "PianoSprout 的主畫面：鍵盤上方是五線譜，要按的琴鍵亮紫色"
   notation: "鍵盤上方的曲譜條顯示簡譜"
   songs: "選曲頁：30 首曲目由易到難排列"
   rainbow: "彩虹音符：琴鍵和曲譜上每個音名一種顏色"

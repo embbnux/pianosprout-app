@@ -26,8 +26,7 @@
   name: 繁體中文
   home: /zh-hant/
   privacy: /privacy.zh-Han
-  app: 寶寶鋼琴師
-  sub: PianoSprout
+  app: PianoSprout
   badge: zh-tw
   og: zh_TW
 - code: ja
@@ -41,8 +40,7 @@
   name: 한국어
   home: /ko/
   privacy: /privacy.ko
-  app: 베이비피아노
-  sub: PianoSprout
+  app: PianoSprout
   badge: ko-kr
   og: ko_KR
 - code: de
